@@ -184,7 +184,7 @@ python app.py
 
 Open in browser:
 
-http://127.0.0.1:5000/
+https://creditcarddefaultpredictor.onrender.com/
 
 📦 Requirements
 
@@ -196,13 +196,6 @@ pandas
 numpy
 joblib
 gunicorn
-
-📸 Screenshots
-
-(Add screenshots here — upload them to assets/ folder and reference them)
-
-![Home Page](assets/home.png)
-![Prediction Result](assets/result.png)
 
 🙌 Acknowledgments
 
@@ -218,5 +211,6 @@ Md Arshad Raza
 🎓 B.Tech in Information Technology
 📍 Rungta College of Engineering and Technology
 🔗 LinkedIn Profile
+
 
 
