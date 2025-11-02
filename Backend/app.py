@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify, send_from_directory, render_template
 from flask_cors import CORS
 import joblib
 import numpy as np
@@ -24,7 +24,7 @@ else:
 # -------------------------------
 @app.route('/', methods=['GET'])
 def home():
-    return jsonify({"message": "API is running. Use POST /predict to make predictions."})
+    return render_template('index.html')
 
 # -------------------------------
 # Prediction route (POST only)
@@ -74,3 +74,4 @@ def predict():
 # -------------------------------
 if __name__ == "__main__":
     app.run(host='127.0.0.1', port=8000, debug=True)
+
