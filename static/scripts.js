@@ -41,12 +41,14 @@ async function predict() {
         'PAY_AMT6': num(document.getElementById('pay_amt6').value)
     };
 
-    const endpoints = [
-        'http://127.0.0.1:8000/predict',
-        'http://localhost:8000/predict',
-        'http://127.0.0.1:5000/predict',
-        'http://localhost:5000/predict'
-    ];
+  const endpoints = [
+    'https://creditcardbackend.onrender.com/predict',  // ✅ your Render backend URL here
+    'http://127.0.0.1:8000/predict',
+    'http://localhost:8000/predict',
+    'http://127.0.0.1:5000/predict',
+    'http://localhost:5000/predict'
+];
+
 
     // Try multiple endpoints until one succeeds
     let response;
