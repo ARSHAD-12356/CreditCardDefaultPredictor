@@ -1,4 +1,10 @@
 🏦 Loan Default Prediction System
+## 🖼️ Project Screenshots
+Here’s a preview of the live website 👇  
+
+<p align="center">
+  <img src="./static/ccDp.png" width="800" alt="Homepage Screenshot" />
+</p>
 🚀 Overview
 
 The Loan Default Prediction System is a Machine Learning-powered web application designed to predict whether a loan applicant is likely to default based on financial and personal parameters.
@@ -212,4 +218,5 @@ Md Arshad Raza
 🎓 B.Tech in Information Technology
 📍 Rungta College of Engineering and Technology
 🔗 LinkedIn Profile
+
 
