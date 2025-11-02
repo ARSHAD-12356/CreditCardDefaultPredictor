@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 import os
 
-app = Flask(__name__, template_folder='../template', static_folder='../static')
+app = Flask(__name__, template_folder='../templates', static_folder='../static')
 CORS(app)  # Enable CORS for all routes
 
 # -------------------------------
@@ -74,5 +74,6 @@ def predict():
 # -------------------------------
 if __name__ == "__main__":
     app.run(host='127.0.0.1', port=8000, debug=True)
+
 
 
